@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script>
+      // Automatically appends the current timestamp to bypass all CDN and browser caches
+      const cacheBuster = Date.now();
+      const zipUrl = encodeURIComponent("https://cdn.jsdelivr.net/gh/hampton-school/Third-Year/ThirdYear.zip?t=" + cacheBuster);
+      window.location.replace("https://www.pythonsponge.com/pages.html?bk=book.json&zip-path=" + zipUrl);
+    </script>
+  </head>
+  <body>
+    <p>Loading course...</p>
+  </body>
+</html>
